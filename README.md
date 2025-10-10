@@ -20,13 +20,21 @@ Vous pouvez consulter mon portfolio en ligne ici : [Portfolio](https://mouhamado
 
 mon-portfolio/
 ├─ index.html
+
 ├─ dist/
+
 │ └─ output.css
+
 ├─ assets/
+
 │ ├─ images/
+
 │ └─ mon_cv.pdf
+
 ├─ README.md
+
 ├─ tailwind.config.js
+
 └─ package.json
 
 
