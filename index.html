@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="generator" content="Hostinger Horizons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouhamadou Ahibou DIALLO — Portfolio | Développeur Backend / DevOps / Fullstack</title>
+    <meta name="description" content="Portfolio de Mouhamadou Ahibou DIALLO, étudiant en Master 2 Ingénierie Logicielle. Spécialisé en développement backend (Spring Boot, Java) et DevOps, recherche un stage de 6 mois à partir de janvier 2025." />
+    <meta name="keywords" content="Mouhamadou Ahibou DIALLO, Spring Boot, Java, DevOps, backend, stage 6 mois, ingénierie logicielle, développeur fullstack, portfolio" />
+    <link href="./dist/output.css" rel="stylesheet">
+    <!-- Google Analytics: Replace UA-XXXXX-Y with your actual ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX'); // Replace with your Google Analytics ID
+    </script>
+</head>
+<body class="bg-background font-roboto">
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-primary/95 backdrop-blur-sm shadow-lg" id="header">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="#hero" class="text-white font-bold text-xl font-montserrat">
+                    M. A. DIALLO
+                </a>
+
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        À propos
+                    </a>
+                    <a href="#experience" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Expériences
+                    </a>
+                    <a href="#projects" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Projets
+                    </a>
+                    <a href="#skills" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Compétences
+                    </a>
+                    <a href="#education" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Formation
+                    </a>
+                    <a href="#langue" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Langues
+                    </a>
+                    <a href="#passion" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Passions
+                    </a>
+                    <a href="#contact" class="text-white hover:text-secondary transition-colors duration-300 font-medium">
+                        Contact
+                    </a>
+                </nav>
+
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-white focus:outline-none" aria-label="Toggle menu">
+                        <svg class="lucide lucide-menu w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-primary/95">
+            <nav class="flex flex-col items-center space-y-6 py-8">
+                <a href="#about" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    À propos
+                </a>
+                <a href="#experience" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Expériences
+                </a>
+                <a href="#projects" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Projets
+                </a>
+                <a href="#skills" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Compétences
+                </a>
+                <a href="#education" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Formation
+                </a>
+                <a href="#langue" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Langues
+                </a>
+                <a href="#passion" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Passions
+                </a>
+                <a href="#contact" class="text-white text-lg hover:text-secondary transition-colors duration-300">
+                    Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative min-h-screen flex items-center justify-center text-center text-white bg-primary px-4">
+            <div class="absolute inset-0 bg-primary opacity-90"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-black/30"></div>
+            
+            <div class="relative z-10 max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold font-montserrat mb-4">
+                    Mouhamadou Ahibou DIALLO
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-secondary font-semibold font-inter mb-8">
+                    Développeur Backend • DevOps • Fullstack
+                </p>
+                
+                <div class="max-w-2xl mx-auto text-lg text-gray-200 mb-12">
+                    À la recherche d’un stage de 6 mois à partir du 19 janvier 2025 — Disponible partout en France.
+                </div>
+                
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="assets/mon_cv.pdf" download class="button button-lg btn-secondary w-full sm:w-auto transition-transform duration-300 hover:scale-105">
+                        <svg class="lucide lucide-download mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                        Télécharger mon CV
+                    </a>
+                    <a href="#contact" class="button button-lg button-outline text-white border-white hover:bg-white hover:text-primary w-full sm:w-auto transition-transform duration-300 hover:scale-105">
+                        <svg class="lucide lucide-send mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+                        Me contacter
+                    </a>
+                </div>
+                 <p class="mt-4 text-sm text-gray-300">
+                    CV téléchargeable — format PDF — disponible sur demande en version longue.
+                 </p>
+            </div>
+        </section>
+
+        <section id="about" class="bg-background">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-primary mb-12 text-center">À Propos de Moi</h2>
+                <div class="grid md:grid-cols-3 gap-12 items-start">
+                    <div class="md:col-span-2 text-lg text-foreground/90 leading-relaxed">
+                        <p class="mb-6">
+                            Actuellement en Master 2 Ingénierie Logicielle à Avignon Université, je suis un développeur polyvalent spécialisé backend (Java Spring Boot), avec de solides compétences frontend (React) et des pratiques DevOps (Docker, Kubernetes, CI/CD).
+                        </p>
+                        <p class="mb-6">
+                            Cofondateur et COO chez Fayma Payment, j’ai piloté la conception et le déploiement de solutions de paiement en architecture microservices.
+                        </p>
+                        <p>
+                            Je recherche un <strong>stage de 6 mois à partir du 19 janvier 2025</strong> pour contribuer à des projets robustes et évoluer en entreprise.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-card p-6 rounded-lg shadow-md border-l-4 border-secondary space-y-4">
+                        <h3 class="text-xl font-bold text-primary mb-4">Contact Rapide</h3>
+                        <div class="flex items-center gap-3">
+                            <svg class="lucide lucide-phone w-5 h-5 text-secondary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.65A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <a href="tel:+33749404902" class="hover:text-secondary transition-colors">+33 7 49 40 49 02</a>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <svg class="lucide lucide-mail w-5 h-5 text-secondary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <a href="mailto:ahiboudiallo2018@gmail.com" class="hover:text-secondary transition-colors">ahiboudiallo2018@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <svg class="lucide lucide-map-pin w-5 h-5 text-secondary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>84000 Avignon — Partout en France</span>
+                        </div>
+                        <div class="border-t pt-4 mt-4 flex items-center gap-4">
+                            <a href="https://www.linkedin.com/in/mouhamadou-ahibou-diallo-602915184" target="_blank" rel="noopener noreferrer" class="text-foreground hover:text-secondary transition-transform duration-300 hover:scale-110" aria-label="LinkedIn">
+                                <svg class="lucide lucide-linkedin w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            </a>
+                            <a href="https://github.com/Mouhamadou-Ahibou-DIALLO" target="_blank" rel="noopener noreferrer" class="text-foreground hover:text-secondary transition-transform duration-300 hover:scale-110" aria-label="GitHub">
+                                <svg class="lucide lucide-github w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.2-1 3.2-4.1 3.2-6v-1a4 4 0 0 0-1.2-3 4.2 4.2 0 0 0-.2-3.6s-1.8-.6-3.6.8a13.3 13.3 0 0 0-6 0c-1.8-1.4-3.6-.8-3.6-.8a4.2 4.2 0 0 0-.2 3.6 4 4 0 0 0-1.2 3v1c0 1.9 0 5 3.2 6a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-3 0-5 0-7 0"/><path d="M9 18c-3 0-5 0-7 0"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="bg-card">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-primary mb-12 text-center">Expériences Professionnelles</h2>
+                
+                <div class="relative max-w-3xl mx-auto">
+                    <div class="absolute left-1/2 w-1.5 h-full bg-primary/20 -translate-x-1/2"></div>
+                    
+                    <div class="relative mb-12">
+                        <div class="absolute left-1/2 -translate-x-1/2 w-8 h-8 bg-secondary rounded-full border-4 border-background flex items-center justify-center">
+                            <svg class="lucide lucide-briefcase w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+
+                        <div class="ml-[calc(50%+2rem)] pl-8 pb-8 border-l-4 border-transparent">
+                            <p class="text-sm text-muted-foreground font-semibold">Juin 2025 — Présent</p>
+                            <h3 class="text-2xl font-bold text-primary mt-1">DG & COO & Développeur Backend Spring Boot</h3>
+                            <p class="text-lg text-secondary font-semibold mb-4">Fayma Payment</p>
+                            <ul class="list-disc list-inside space-y-2 text-foreground/90">
+                                <li>Conception et implémentation de microservices en Spring Boot 3+ / Java 21, et API REST sécurisées (JWT, OAuth2).</li>
+                                <li>Intégration de connecteurs vers des prestataires de paiement (APIs bancaires, Orange Money, Wave).</li>
+                                <li>Mise en place de pipelines CI/CD avec GitHub Actions pour déploiement sur Docker / Kubernetes.</li>
+                                <li>Configuration du monitoring (Prometheus, Grafana) et des health checks (Spring Actuator).</li>
+                                <li>Pilotage agile (sprints, planning), revue de code, et gestion des priorités produit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-background">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-primary mb-12 text-center">Projets Sélectionnés</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                        <img class="w-full h-48 object-cover" alt="Aperçu du projet Carpooling" style="object-position: top;" src="https://images.unsplash.com/photo-1678179209287-ab843bbd4647" />
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-primary mb-2">Carpooling (Personnel)</h3>
+                            <p class="text-foreground/80 mb-4 flex-grow">Application web & mobile pour faciliter le covoiturage local entre voisins, étudiants et collègues.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Java 21</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Spring Boot 3</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Redis</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Docker</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Swagger</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">React</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">CI/CD</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Flyway</span>
+                            </div>
+                            <div class="mt-auto">
+                                <a href="https://github.com/Mouhamadou-Ahibou-DIALLO/carpooling" target="_blank" rel="noopener noreferrer" class="button btn-secondary w-full">
+                                    <svg class="lucide lucide-github mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.2-1 3.2-4.1 3.2-6v-1a4 4 0 0 0-1.2-3 4.2 4.2 0 0 0-.2-3.6s-1.8-.6-3.6.8a13.3 13.3 0 0 0-6 0c-1.8-1.4-3.6-.8-3.6-.8a4.2 4.2 0 0 0-.2 3.6 4 4 0 0 0-1.2 3v1c0 1.9 0 5 3.2 6a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-3 0-5 0-7 0"/><path d="M9 18c-3 0-5 0-7 0"/></svg>
+                                    Voir le code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                        <img class="w-full h-48 object-cover" alt="Aperçu du projet de gestion de cryptomonnaies" style="object-position: top;" src="https://images.unsplash.com/photo-1568092715422-fff34eabbe84" />
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-primary mb-2">Gestion de Cryptomonnaies</h3>
+                            <p class="text-foreground/80 mb-4 flex-grow">Collecte auto de données, visualisations interactives, alertes mail, et portefeuille simulé.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Spring Boot</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">React.js</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Docker/K8s</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Prometheus</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Grafana</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">CI/CD</span>
+                            </div>
+                            <div class="mt-auto">
+                                <a href="https://github.com/Mouhamadou-Ahibou-DIALLO/CryptoCurrency_Project" target="_blank" rel="noopener noreferrer" class="button btn-secondary w-full">
+                                    <svg class="lucide lucide-github mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.2-1 3.2-4.1 3.2-6v-1a4 4 0 0 0-1.2-3 4.2 4.2 0 0 0-.2-3.6s-1.8-.6-3.6.8a13.3 13.3 0 0 0-6 0c-1.8-1.4-3.6-.8-3.6-.8a4.2 4.2 0 0 0-.2 3.6 4 4 0 0 0-1.2 3v1c0 1.9 0 5 3.2 6a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-3 0-5 0-7 0"/><path d="M9 18c-3 0-5 0-7 0"/></svg>
+                                    Voir le code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+                        <img class="w-full h-48 object-cover" alt="Aperçu d'une application de réseau social" style="object-position: top;" src="https://images.unsplash.com/photo-1647964185937-1c0456bb8f76" />
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-2xl font-bold text-primary mb-2">CERISonet — Réseau Social</h3>
+                            <p class="text-foreground/80 mb-4 flex-grow">Application avec WebSockets (Node.js) pour communication temps réel, frontend Angular.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Node.js</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Angular</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">WebSockets</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">MongoDB</span>
+                                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bg-card">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-primary mb-12 text-center">Compétences Techniques & Humaines</h2>
+                <div class="space-y-12">
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Langages</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Java</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">JavaScript</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Python</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">C++</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">C#</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Dart</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Backend & Microservices</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Spring Boot</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Quarkus</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Node.js</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Flask</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">.NET</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Frontend</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">React.js</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Angular</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">HTML</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">CSS</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Bases de données</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">PostgreSQL</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">MySQL</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">MongoDB</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">SQLite</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">DevOps & Monitoring</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Docker</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Kubernetes</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Prometheus</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Grafana</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">GitHub Actions</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Tests & Qualité</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">JUnit</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">TestContainers</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">SonarQube</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">OWASP ZAP</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">K6</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Méthodes</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Scrum</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">TDD</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">CI/CD</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Savoir-être</h3>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Créativité</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Adaptabilité</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Collaboration</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Respect des engagements</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Communication</div>
+                            <div class="bg-primary/10 text-primary font-semibold px-4 py-2 rounded-lg text-center">Gestion de projet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="bg-background">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-primary mb-12 text-center">Formation</h2>
+                <div class="max-w-2xl mx-auto space-y-8">
+                    <div class="flex items-center gap-6">
+                        <div class="bg-secondary text-white p-4 rounded-full">
+                            <svg class="lucide lucide-graduation-cap w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6m0 0-4 4m4-4-4-4"/><path d="M6 16V6.5L12 3l6 3.5V16"/><path d="M2 10.6V16c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2v-6"/><path d="M12 3L6 6.5"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-primary">Master Ingénierie Logicielle</h3>
+                            <p class="text-lg text-foreground/80">Avignon Université</p>
+                            <p class="text-md text-muted-foreground font-semibold">2024 — 2026</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <div class="bg-secondary text-white p-4 rounded-full">
+                            <svg class="lucide lucide-graduation-cap w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6m0 0-4 4m4-4-4-4"/><path d="M6 16V6.5L12 3l6 3.5V16"/><path d="M2 10.6V16c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2v-6"/><path d="M12 3L6 6.5"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-primary">Licence Informatique</h3>
+                            <p class="text-lg text-foreground/80">Aix-Marseille Université</p>
+                            <p class="text-md text-muted-foreground font-semibold">2020 — 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Langues -->
+        <section id="langue" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 text-primary">Langues</h2>
+            <ul class="space-y-4 text-lg text-gray-700 text-center">
+            <li><strong>🇫🇷 Français :</strong> Compétence professionnelle complète</li>
+            <li><strong>🇬🇧 Anglais :</strong> Technique (lu et compris)</li>
+            <li><strong>🇸🇳 Wolof :</strong> Natif</li>
+            <li><strong>🌍 Pulaar :</strong> Natif</li>
+            </ul>
+        </div>
+        </section>
+
+        <!-- Section Passions -->
+        <section id="passion" class="bg-card p-8 rounded-lg shadow-lg max-w-3xl mx-auto mb-12">
+            <h3 class="text-2xl font-bold text-primary mb-6 text-center">Passions</h3>
+            <ul class="space-y-4">
+                <li class="flex items-center gap-3">
+                <span class="inline-block w-3 h-3 bg-primary rounded-full"></span>
+                Football – Je joue au foot depuis mon plus jeune âge. Mon idole est Iniesta.
+                </li>
+                <li class="flex items-center gap-3">
+                <span class="inline-block w-3 h-3 bg-primary rounded-full"></span>
+                Cinéma – J’aime regarder des films d’action et de super-héros comme ceux de Marvel.
+                </li>
+                <li class="flex items-center gap-3">
+                <span class="inline-block w-3 h-3 bg-primary rounded-full"></span>
+                Voyages – J’ai déjà voyagé dans 4 pays et j’aimerais découvrir d’autres cultures et paysages.
+                </li>
+            </ul>
+        </section>
+
+
+            <section id="contact" class="bg-card">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="text-4xl font-bold text-primary mb-4 text-center">Contactez-moi</h2>
+                    <p class="text-lg text-center text-foreground/80 max-w-3xl mx-auto mb-12">
+                    Disponible pour un stage de 6 mois à partir du 19 janvier 2025. N'hésitez pas à me contacter ou à télécharger mon CV.
+                    </p>
+
+                    <!-- FORMULAIRE DE CONTACT -->
+                    <div class="max-w-2xl mx-auto bg-background p-8 rounded-lg shadow-xl">
+                    <form 
+                        id="contact-form"
+                        action="https://formspree.io/f/xkgqqvvd" 
+                        method="POST"
+                        class="space-y-6"
+                    >
+                        <div>
+                        <label for="name" class="block text-sm font-medium text-foreground mb-1">Nom</label>
+                        <input id="name" name="name" type="text" placeholder="Votre nom" required class="input" />
+                        </div>
+                        <div>
+                        <label for="email" class="block text-sm font-medium text-foreground mb-1">Email</label>
+                        <input id="email" name="_replyto" type="email" placeholder="Votre email" required class="input" />
+                        </div>
+                        <div>
+                        <label for="message" class="block text-sm font-medium text-foreground mb-1">Message</label>
+                        <textarea id="message" name="message" placeholder="Votre message" required rows="5" class="textarea"></textarea>
+                        </div>
+                        <button type="submit" class="button button-lg btn-secondary w-full">
+                        <svg class="lucide lucide-send mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+                        Envoyer le message
+                        </button>
+                    </form>
+
+                    <!-- Message de confirmation caché -->
+                    <p id="form-success" class="hidden text-green-600 text-center mt-4 font-medium">
+                        Votre message a bien été envoyé ! Merci de m’avoir contacté.
+                    </p>
+                    <p id="form-error" class="hidden text-red-600 text-center mt-4 font-medium">
+                        Une erreur est survenue. Veuillez réessayer plus tard.
+                    </p>
+            </div>
+
+            <!-- BOUTON DE TÉLÉCHARGEMENT DU CV -->
+            <div class="text-center mt-12">
+            <a href="assets/mon_cv.pdf" download class="button button-lg button-outline border-primary text-primary hover:bg-primary hover:text-white">
+                <svg class="lucide lucide-download mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                Télécharger mon CV (PDF)
+            </a>
+            </div>
+        </div>
+
+        <!-- Script d'envoi + message de confirmation -->
+        <script>
+            const form = document.getElementById('contact-form');
+            const successMsg = document.getElementById('form-success');
+            const errorMsg = document.getElementById('form-error');
+
+            form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            successMsg.classList.add('hidden');
+            errorMsg.classList.add('hidden');
+
+            const formData = new FormData(form);
+            try {
+                const response = await fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                form.reset();
+                successMsg.classList.remove('hidden');
+                } else {
+                errorMsg.classList.remove('hidden');
+                }
+            } catch (error) {
+                errorMsg.classList.remove('hidden');
+            }
+            });
+        </script>
+    </section>
+
+    </main>
+
+    <footer class="bg-primary text-white font-inter">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-wrap justify-between items-center gap-6 mb-6">
+                <div>
+                    <span class="font-bold text-lg font-montserrat">Mouhamadou Ahibou DIALLO</span>
+                    <p class="text-sm text-gray-300 mt-1">Master 2 Ingénierie Logicielle — Disponible pour stage (janvier 2025)</p>
+                </div>
+                <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+                    <a href="mailto:ahiboudiallo2018@gmail.com" class="hover:text-secondary transition-colors flex items-center gap-2">
+                        <svg class="lucide lucide-mail w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        ahiboudiallo2018@gmail.com
+                    </a>
+                    <a href="tel:+33749404902" class="hover:text-secondary transition-colors flex items-center gap-2">
+                        <svg class="lucide lucide-phone w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.65A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +33 7 49 40 49 02
+                    </a>
+                    <a href="https://www.linkedin.com/in/mouhamadou-ahibou-diallo-602915184" target="_blank" rel="noopener noreferrer" class="hover:text-secondary transition-colors flex items-center gap-2">
+                        <svg class="lucide lucide-linkedin w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Mouhamadou-Ahibou-DIALLO" target="_blank" rel="noopener noreferrer" class="hover:text-secondary transition-colors flex items-center gap-2">
+                        <svg class="lucide lucide-github w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.2-1 3.2-4.1 3.2-6v-1a4 4 0 0 0-1.2-3 4.2 4.2 0 0 0-.2-3.6s-1.8-.6-3.6.8a13.3 13.3 0 0 0-6 0c-1.8-1.4-3.6-.8-3.6-.8a4.2 4.2 0 0 0-.2 3.6 4 4 0 0 0-1.2 3v1c0 1.9 0 5 3.2 6a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-3 0-5 0-7 0"/><path d="M9 18c-3 0-5 0-7 0"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-6 text-center text-xs text-gray-400">
+                <p>© 2025 Mouhamadou Ahibou DIALLO — Conçu pour une recherche de stage de 6 mois.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module">
+        // Basic JavaScript for mobile menu toggle and scroll effect
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const header = document.getElementById('header');
+
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                menuToggle.innerHTML = mobileMenu.classList.contains('hidden') 
+                    ? '<svg class="lucide lucide-menu w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>' 
+                    : '<svg class="lucide lucide-x w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+            });
+
+            const navLinks = document.querySelectorAll('#mobile-menu a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+                    mobileMenu.classList.add('hidden');
+                    menuToggle.innerHTML = '<svg class="lucide lucide-menu w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>';
+                });
+            });
+
+            // Smooth scrolling for desktop nav links
+            document.querySelectorAll('header nav a').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Contact form submission (for feedback, not actual email sending)
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    alert("Message envoyé ! 🚀 (Fonctionnalité d'envoi réel par e-mail à configurer, par exemple via un service tiers comme Formspree ou un backend).");
+                    contactForm.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
